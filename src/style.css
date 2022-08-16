@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Varta:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Varta', sans-serif;
+}
+body{
+  background-color: #19123b;
+}
+.main_div{
+    height: 100vh;
+}
+.card{
+    border: none;
+    border-top: 5px solid rgb(176,106,252);
+    background-color: #212042;
+    color: #57557a;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #2a284d;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 17px;
+    /* transition: all 0.2s linear; */
+}
+.fab:hover{
+    cursor: pointer;
+    background-color: #aaafff;
+}
+.fa-twitter{
+    color: #56abec;
+}
+.fa-facebook{
+    color: #1775f1;
+}
+.fa-instagram{
+    color: #fe4164;
+}
+.division{
+    width: 100%;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+.division span{
+    font-weight: 500;
+    font-size: 25px;
+}
+.myform{
+    padding: 0px 25px 0px 35px;
+}
+.form-control{
+    border: 1px solid #57557a;
+    border-radius: 2px;
+    background-color: #212042;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.form-control:focus{
+    border: 1px solid #57557a;
+    border-radius: 5px;
+    background-color: #212042;
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: #fff;
+}
+.bn{
+    text-decoration: underline;
+}
+.bn:hover{
+    cursor: pointer;
+}
+/* .check1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+.btn-primary{
+    background: linear-gradient(130deg,rgba(175,106,252) 39%,rgba(116,17,255,1));
+    border: none;
+    border-radius: 50px;
+}
